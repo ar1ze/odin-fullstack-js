@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <form action="/my-handling-form-page" method="post">
+      <fieldset>
+        <legend>Contact</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email">
+        </p>
+        <p>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+        </p>
+        <p class="button">
+          <button type="submit">Send your message</button>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controls</title>
+  </head>
+
+  <body>
+    <h2>Selection elements</h2>
+    <h3>Select dropdown</h3>
+    <select name="car" id="car">
+      <option value="mercedes">Mercedes</option>
+      <option value="tesla">Tesla</option>
+      <option value="volvo" selected>Volvo</option>
+      <option value="bmw">BMW</option>
+      <option value="mini">Mini</option>
+      <option value="ford">Ford</option>
+    </select>
+    <h3>Optgroup</h3>
+    <select name="fashion">
+      <optgroup label="Clothing">
+        <option value="t_shirt">T-Shirts</option>
+        <option value="sweater">Sweaters</option>
+        <option value="coats">Coats</option>
+      </optgroup>
+      <optgroup label="Foot Wear">
+        <option value="sneakers">Sneakers</option>
+        <option value="boots">Boots</option>
+        <option value="sandals">Sandals</option>
+      </optgroup>
+    </select>
+    <h3>Radio buttons</h3>
+    <div>
+      <input type="radio" name="ticket_type" id="child" value="child">
+      <label for="child">Child</label>
+    </div>
+    <div>
+      <input type="radio" name="ticket_type" id="adult" value="adult">
+      <label for="child">Adult</label>
+    </div>
+    <div>
+      <input type="radio" name="ticket_type" id="senior" value="senior">
+      <label for="senior">Senior</label>
+    </div>
+    <h3>Checkboxes</h3>
+    <div>
+      <input type="checkbox" name="topping" id="sausage" value="sausage" checked>
+      <label for="sausage">Sausage</label>
+    </div>
+    <div>
+      <input type="checkbox" name="topping" id="onions" value="onions">
+      <label for="sausage">Onion</label>
+    </div>
+    <div>
+      <input type="checkbox" name="topping" id="pepperoni" value="pepperoni">
+      <label for="sausage">Pepperoni</label>
+    </div>
+    <div>
+      <input type="checkbox" name="topping" id="mushrooms" value="mushrooms">
+      <label for="sausage">Mushrooms</label>
+    </div>
+  </body>
+
+</html>

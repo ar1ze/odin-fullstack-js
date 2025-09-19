@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Mom \'sTypewriter';
+    src: url('MomsTypewriter.woff2') format('woff2'),
+        url('MomsTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Journal';
+    src: url('Journal.woff2') format('woff2'),
+        url('Journal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

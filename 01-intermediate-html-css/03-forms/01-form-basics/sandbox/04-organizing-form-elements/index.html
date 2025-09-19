@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controls</title>
+  </head>
+
+  <body>
+    <h2>Organizing form elements</h2>
+    <h3>Fieldset element</h3>
+    <fieldset>
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" id="first_name"><br>
+
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" id="last_name">
+    </fieldset>
+    <h3>Legend</h3>
+    <fieldset>
+      <legend>Contact Details</legend>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name"><br>
+      <label for="phone_number">Phone Number:</label>
+      <input type="tel" name="phone_number" id="phone_number"><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </fieldset>
+    <fieldset>
+      <legend>Delivery Details</legend>
+      <label for="street_adress">Street Addresss:</label>
+      <input type="text" name="street_adress" id="street_adress"><br>
+      <label for="city">City:</label>
+      <input type="text" name="city" id="city"><br>
+      <label for="zip_code">Zip Code:</label>
+      <input type="number" name="zip_code" id="zip_code">
+    </fieldset>
+    <fieldset>
+      <legend>What would you like to drink?</legend>
+
+      <div>
+        <input type="radio" name="drink" id="coffee" value="coffee">
+        <label for="coffee">Coffee</label>
+      </div>
+
+      <div>
+        <input type="radio" name="drink" id="tea" value="tea" checked>
+        <label for="tea">Tea</label>
+      </div>
+
+      <div>
+        <input type="radio" name="drink" id="soda" value="soda">
+        <label for="soda">Soda</label>
+      </div>
+    </fieldset>
+  </body>
+
+</html>
