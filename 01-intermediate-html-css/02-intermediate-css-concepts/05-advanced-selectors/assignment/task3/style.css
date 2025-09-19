@@ -1,0 +1,38 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+p:first-child {
+  font-size: 150%;
+}
+
+p:first-child::first-line {
+  color: red;
+}
+
+tr:nth-child(even) {
+  background: #333;
+  color: white;
+}

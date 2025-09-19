@@ -1,0 +1,19 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+#special {
+  background: yellow;
+}
+
+.alert {
+  border: 2px solid grey;
+}
+
+.alert.stop {
+  background: red;
+}
+
+.alert.go {
+  background: green;
+}
