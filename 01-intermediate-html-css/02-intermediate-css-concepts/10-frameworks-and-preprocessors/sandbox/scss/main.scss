@@ -1,0 +1,15 @@
+@use 'reset';
+
+$primary-color: #007bff;
+$font-stack: 'Arial', sans-serif;
+$bg-color: #f8f9fa;
+
+body {
+  background-color: $bg-color;
+}
+
+.container { 
+  h1 {
+    border: 1px solid #000;
+  }
+}
