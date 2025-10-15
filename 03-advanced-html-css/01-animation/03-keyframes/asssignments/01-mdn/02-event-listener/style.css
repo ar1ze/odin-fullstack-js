@@ -1,0 +1,15 @@
+.slide-in {
+  animation: 3s slide-in 3 alternate;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vh 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}

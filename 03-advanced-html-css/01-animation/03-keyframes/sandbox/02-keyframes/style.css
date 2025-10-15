@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: red;
+  animation: 2s change-color infinite alternate;
+}
+
+@keyframes change-color {
+  from {
+    background-color: red;
+  }
+
+  50% {
+    transform: scale(2);
+    background: blue;
+  }
+
+  to {
+    background-color: green;
+  }
+}

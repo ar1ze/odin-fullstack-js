@@ -1,0 +1,16 @@
+.red-box,
+.blue-box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background: red;
+  transform: rotate(45deg) translate(200%);
+}
+
+.blue-box {
+  background: blue;
+  transform: translate(200%) rotate(45deg);
+}
