@@ -2,13 +2,9 @@
 
 ## 📝 Introduction
 
------
-
 While ES6 modules help organize code into separate files, loading many individual files can be slow for the browser. A **bundler** like Webpack solves this by taking all your files (JavaScript, CSS, images, etc.), figuring out their dependencies, and combining them into a few optimized files for production. This requires some initial configuration, but it's a powerful and essential tool in modern web development.
 
 ## 📚 Lesson Overview
-
------
 
   * ❓ Explain the purpose of bundlers.
   * ⚙️ Configure Webpack to bundle JavaScript modules.
@@ -17,16 +13,12 @@ While ES6 modules help organize code into separate files, loading many individua
 
 ## 📦 Core Concepts
 
------
-
   * **Bundling Process**: Webpack starts from an **entry point** file, builds a **dependency graph** of all imported modules, and outputs a single, combined file (the "bundle").
   * **`src` and `dist` Directories**:
       * `src` (source): Where you write your code.
       * `dist` (distribution): Where the bundled, optimized output code lives. You deploy the contents of this folder.
 
 ## 🛠️ Basic Setup
-
------
 
 1.  **Initialize Project**:
     ```bash
@@ -57,8 +49,6 @@ While ES6 modules help organize code into separate files, loading many individua
     ```
 
 ## 🧩 Handling Assets: Loaders & Plugins
-
------
 
 Webpack only understands JavaScript out of the box. We need **loaders** to process other file types and **plugins** to perform additional tasks.
 
@@ -140,8 +130,6 @@ Webpack only understands JavaScript out of the box. We need **loaders** to proce
 
 ## ⚙️ Development Workflow
 
------
-
 ### 🖥️ Webpack Dev Server
 
   * **Purpose**: A live-reloading server that automatically rebundles your code when you save a file. No more running `npx webpack` manually\!
@@ -161,8 +149,6 @@ Webpack only understands JavaScript out of the box. We need **loaders** to proce
     ```
 
 ## 🧠 Knowledge Check
-
------
 
   * **What is a bundler?** A tool that combines multiple code files into a single bundle.
   * **What is Webpack?** A popular and highly configurable module bundler.

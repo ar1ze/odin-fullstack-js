@@ -2,8 +2,6 @@
 
 ## 📝 Introduction
 
------
-
   * **JSON** is a standard, text-based format for structuring and transmitting data.
   * It is heavily based on JavaScript object syntax but is language-independent.
   * It's the most common format for sending data between a server and a web application (e.g., working with APIs).
@@ -11,8 +9,6 @@
   * **Deserialization**: Converting a JSON string into a native object.
 
 ## 📐 JSON Structure & Syntax Rules
-
------
 
 JSON format is *similar* to JavaScript objects but is much **stricter**.
 
@@ -39,8 +35,6 @@ JSON format is *similar* to JavaScript objects but is much **stricter**.
 
 ## 🔄 Working with JSON in JavaScript
 
------
-
 Browsers have a built-in `JSON` object with two primary methods for serialization and deserialization.
 
 ### `JSON.parse()`
@@ -66,8 +60,6 @@ Browsers have a built-in `JSON` object with two primary methods for serializatio
 
 ## 📡 Fetching and Using JSON
 
------
-
 When using the `fetch` API, you can get the response and parse it automatically.
 
   * The `response.json()` method reads a response stream and parses it as JSON.
@@ -88,8 +80,6 @@ When using the `fetch` API, you can get the response and parse it automatically.
     ```
 
 ## 💻 Assignment
-
------
 
   * Read the MDN tutorial on JSON.
   * Learn the two key JavaScript methods: `JSON.parse()` and `JSON.stringify()`.

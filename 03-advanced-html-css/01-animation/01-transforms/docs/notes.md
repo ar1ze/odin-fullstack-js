@@ -2,13 +2,9 @@
 
 ## 📝 Introduction
 
------
-
 The `transform` property is a powerful CSS tool used to change the appearance of elements (like rotating, scaling, or moving them) **without affecting the normal document flow**. It is very commonly used for creating animations.
 
 ## 📚 Lesson Overview
-
------
 
   * How to use 2D transforms.
   * How to use 3D transforms.
@@ -16,8 +12,6 @@ The `transform` property is a powerful CSS tool used to change the appearance of
   * The performance benefits of using the `transform` property.
 
 ## 📐 Two-Dimensional Transforms
-
------
 
 These functions alter an element on a 2D plane.
 
@@ -40,8 +34,6 @@ These functions alter an element on a 2D plane.
 
 ## 🔗 Chaining Multiple Transforms
 
------
-
 You can apply multiple transform functions by listing them in the `transform` property, separated by spaces.
 
   * **⚠️ The Order Matters\!** Composite transforms are applied from **right to left**.
@@ -57,8 +49,6 @@ You can apply multiple transform functions by listing them in the `transform` pr
     These two declarations will produce very different results.
 
 ## 🧊 Three-Dimensional Transforms
-
------
 
 To create a 3D effect, you need to use the `perspective` function.
 
@@ -76,21 +66,15 @@ To create a 3D effect, you need to use the `perspective` function.
 
 ## 🧮 Matrix
 
------
-
   * The `matrix()` and `matrix3d()` functions can combine all transform functions into one.
   * They are rarely used or written by hand because they are complex and hard to read. It's better to use the individual transform functions.
 
 ## ✨ Benefits of Transforms
 
------
-
   * **🚀 Performance**: Transforms are highly optimized. They occur during the **composition** phase of the browser's rendering process, which is less computationally expensive than properties that trigger layout or paint recalculations.
   * **💪 Hardware Acceleration**: Transforms can be offloaded to the device's GPU, making animations smoother, especially on mobile devices.
 
 ## 💻 Assignment
-
------
 
   * Review the MDN demonstration of `rotate3d`.
   * Learn more about `perspective` in CSS.
@@ -98,8 +82,6 @@ To create a 3D effect, you need to use the `perspective` function.
   * Read "The World of CSS Transforms" by Josh Comeau.
 
 ## 🧠 Knowledge Check
-
------
 
   * What are the four main functions of the `transform` property? (rotate, scale, skew, translate)
   * Which function can be used to move an object through space? (translate)

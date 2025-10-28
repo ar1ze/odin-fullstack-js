@@ -2,8 +2,6 @@
 
 ## 🆚 Animations vs. Transitions
 
------
-
 While both animate elements, CSS animations offer more power and flexibility than transitions.
 
   * **Loops 🔁**: Animations are designed for looping. Transitions can loop, but it's not their primary purpose.
@@ -13,8 +11,6 @@ While both animate elements, CSS animations offer more power and flexibility tha
 **Rule of thumb**: Use transitions for simple state changes (e.g., hover effects). Use animations for more complex, multi-step sequences.
 
 ## ⚙️ Animation Properties
-
------
 
 Defining an animation involves two parts: configuring the animation properties on the element and defining the keyframes.
 
@@ -51,8 +47,6 @@ You can combine all the properties into a single `animation` declaration.
 
 ## 🔑 Keyframes
 
------
-
 The `@keyframes` at-rule defines the steps of an animation sequence. It's linked to an element via the `animation-name`.
 
   * Keyframes use percentages (`%`) to mark points in the animation's timeline.
@@ -84,8 +78,6 @@ The `@keyframes` at-rule defines the steps of an animation sequence. It's linked
 
 ## 💻 Assignment
 
------
-
 1.  Code along with the MDN article for using CSS animations.
 2.  Read the `@keyframes` reference on MDN.
 3.  Read the interactive guide to keyframes.
@@ -95,8 +87,6 @@ The `@keyframes` at-rule defines the steps of an animation sequence. It's linked
       * `03-dropdown-menu`
 
 ## 🧠 Knowledge Check
-
------
 
   * What are the longhand and shorthand notations for CSS animations?
   * How do you add keyframes to an animation?

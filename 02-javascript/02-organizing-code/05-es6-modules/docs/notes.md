@@ -2,21 +2,15 @@
 
 ## 📝 Introduction
 
------
-
 ES6 Modules (ESM) provide a native way to split JavaScript code into multiple, organized files. Before ES6, developers often used the "module pattern" with IIFEs to avoid polluting the **global scope**, but ESM offers a more robust and cleaner solution.
 
 ## 📚 Lesson Overview
-
------
 
   * ❓ Explain what ES6 modules are and how to `import` and `export` from them.
   * ↔️ Describe the difference between **default** and **named** exports.
   * 🆚 Explain the main differences between CommonJS modules and ES6 modules.
 
 ## 🕰️ Before ES6 Modules: The Global Scope Problem
-
------
 
   * **Problem**: Loading multiple `<script>` tags in HTML puts all variables and functions into the same **global scope**. This can lead to naming conflicts and unpredictable behavior.
 
@@ -40,8 +34,6 @@ ES6 Modules (ESM) provide a native way to split JavaScript code into multiple, o
     ```
 
 ## 🚀 ES6 Modules in Action
-
------
 
 With ESM, each file is its own module with a private scope. You explicitly choose what to **export** from one file and what to **import** into another.
 
@@ -114,21 +106,15 @@ You can also **combine** default and named exports in the same file.
 
 ## 📦 CommonJS (CJS)
 
------
-
   * An older module system primarily used in **Node.js**.
   * Uses `require` and `module.exports` syntax.
   * **Browsers do not understand CommonJS syntax**. For now, we will focus on ESM for front-end development.
 
 ## 💻 Assignment
 
------
-
   * 📖 Read the MDN docs on `export` and `import` to learn about extra features like aliases and namespace imports.
 
 ## 🧠 Knowledge Check
-
------
 
   * How would you privatize a variable before ES6 modules? (IIFE)
   * How would you expose a variable before ES6 modules? (Return it from an IIFE)
@@ -138,8 +124,6 @@ You can also **combine** default and named exports in the same file.
   * How do you link a module script in HTML? (`<script type="module">`)
 
 ## 🔗 Additional Resources
-
------
 
   * **Video**: Web Dev Simplified has a great video summarizing ES6 Modules.
   * **Article**: A brief comparison of CommonJS modules and ES6 modules.

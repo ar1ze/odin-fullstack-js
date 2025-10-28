@@ -2,8 +2,6 @@
 
 ### 🔭 Scope & Closures
 
------
-
   * **Scope:** Determines where a variable is accessible.
 
       * **Global Scope:** Available everywhere in the code.
@@ -33,8 +31,6 @@
 
 ### 😟 What's Wrong with Constructors?
 
------
-
 While fundamental, constructors have some drawbacks that have made factory functions more popular:
 
   * **Ambiguous Syntax:** They look like regular functions but behave differently.
@@ -42,8 +38,6 @@ While fundamental, constructors have some drawbacks that have made factory funct
   * **Unreliable `instanceof`:** In JavaScript, `instanceof` can be misleading for checking an object's origin.
 
 ### ✨ Factory Functions
-
------
 
 A factory function is simply a function that creates and returns an object, without using the `new` keyword or prototypes.
 
@@ -75,8 +69,6 @@ A factory function is simply a function that creates and returns an object, with
   * **Inheritance:** You can achieve inheritance by calling one factory inside another or by using `Object.assign()`.
 
 ### 📦 The Module Pattern & IIFEs
-
------
 
 The Module Pattern is a way to organize code into self-contained units, avoiding pollution of the global scope. It's often used when you only need a single instance of an object.
 

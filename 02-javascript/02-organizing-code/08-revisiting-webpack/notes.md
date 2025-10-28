@@ -2,21 +2,15 @@
 
 ## 📝 Introduction
 
------
-
 This lesson covers a few concepts to improve your Webpack setup and development workflow, building on what you learned in the Restaurant Page project.
 
 ## 📚 Lesson Overview
-
------
 
   * How to write and run **npm scripts**.
   * What **Webpack modes** are and how to automate switching between them.
   * How to create and use **template repositories**.
 
 ## 🏃 npm Scripts
-
------
 
   * **Purpose**: To save time and create standardized names for running common commands in the terminal.
   * **Location**: They live in the `package.json` file under a `"scripts"` property.
@@ -38,8 +32,6 @@ This lesson covers a few concepts to improve your Webpack setup and development 
 
 ## 💡 Webpack Modes
 
------
-
   * **Purpose**: Webpack has two modes that apply different optimizations.
     1.  **`development`**: Best for when you are actively working on your project.
     2.  **`production`**: Best for building your final files for deployment (creates a more optimized, minified bundle).
@@ -56,8 +48,6 @@ This lesson covers a few concepts to improve your Webpack setup and development 
 
 ## repositories(Template Repositories)
 
------
-
   * **Problem**: Setting up Webpack requires creating multiple files, directories, and configuration, which is repetitive for every new project.
   * **Solution**: Use **template repositories** on GitHub.
   * **How to create one**:
@@ -70,14 +60,10 @@ This lesson covers a few concepts to improve your Webpack setup and development 
 
 ## Assignment
 
------
-
   * Read more about **npm scripts**.
   * Read Webpack’s **“Production” guide** to learn how to use **`webpack-merge`** and split your configuration files.
 
 ## 🧠 Knowledge Check
-
------
 
   * Where do npm scripts live? (In `package.json` under the `"scripts"` property)
   * How do you define and run npm scripts? (Define as `"name": "command"`, run with `npm run <name>`)

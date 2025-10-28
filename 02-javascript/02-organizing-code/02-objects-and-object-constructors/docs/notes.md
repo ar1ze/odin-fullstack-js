@@ -2,8 +2,6 @@
 
 ### 🎯 Basic Object Refresher
 
------
-
   * **Object Literal Syntax:** The most common way to create an object.
     ```javascript
     const myObject = {
@@ -26,8 +24,6 @@
 
 ### 🏭 Object Constructors
 
------
-
 Constructors are functions used as a blueprint for creating multiple objects of the same type.
 
   * **Why use them?** To avoid manually creating many similar objects, which is inefficient and error-prone. This is essential for applications like games (multiple players) or e-commerce sites (many inventory items).
@@ -45,8 +41,6 @@ Constructors are functions used as a blueprint for creating multiple objects of 
   * **Safeguarding:** You can prevent a constructor from being called without `new` by checking the `new.target` meta-property.
 
 ### 🧬 The Prototype
-
------
 
 The prototype is a core concept in JavaScript that enables inheritance.
 
@@ -70,8 +64,6 @@ The prototype is a core concept in JavaScript that enables inheritance.
 
 ### 🔗 Prototypal Inheritance
 
------
-
 Objects can inherit from other objects, forming a "prototype chain." When you try to access a property on an object, JavaScript will look for it on the object itself, then on its prototype, then on that prototype's prototype, and so on, until it reaches the end of the chain (`null`).
 
   * **How it works:** `player1` inherits from `Player.prototype`, which in turn inherits from `Object.prototype`. This is why `player1` has access to methods like `.valueOf()` even though you didn't define them.
@@ -83,8 +75,6 @@ Objects can inherit from other objects, forming a "prototype chain." When you tr
   * **⚠️ Common Mistake:** **Do not** assign prototypes directly (`Player.prototype = Person.prototype`). This links them to the *same object*, so changing one will affect the other, leading to unintended side effects.
 
 ### ✅ Knowledge Check
-
------
 
   * Can you write an **object constructor** and instantiate it with `new`?
   * Do you know what a **prototype** is and how it allows objects to share methods?
