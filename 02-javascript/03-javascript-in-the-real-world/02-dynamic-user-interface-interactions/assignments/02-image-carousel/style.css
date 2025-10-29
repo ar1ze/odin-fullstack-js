@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel__image {
+  width: 50rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.carousel__image.fade-out {
+  opacity: 0;
+}
+
+.carousel__button {
+  position: absolute;
+  border: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f5f5f7;
+  cursor: pointer;
+}
+
+.carousel__button:hover {
+  color: #fcfcfc;
+}
+
+.carousel__button--previous {
+  left: 1rem;
+}
+
+.carousel__button--next {
+  right: 1rem;
+}
